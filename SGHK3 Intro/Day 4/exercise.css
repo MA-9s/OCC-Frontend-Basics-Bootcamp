@@ -1,0 +1,132 @@
+/* || RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* || GENERAL STYLES */
+body {
+	font: 1.5rem "Nunito", sans-serif;
+	min-height: 100vh;
+
+	background-color: #475569;
+	background-image: radial-gradient(whitesmoke, #475569);
+	display: flex;
+	flex-direction: column;
+}
+
+header,
+nav,
+main,
+footer {
+	display: grid;
+	place-content: center;
+	grid-template-columns: 100%;
+	text-align: center;
+}
+
+header,
+footer {
+	position: sticky;
+	background-color: #1e293b;
+	color: whitesmoke;
+}
+
+header {
+	top: 0;
+}
+
+nav {
+	background-color: #fff;
+	color: #000;
+	padding: 0.5rem;
+	border-bottom: 2px solid #000;
+}
+
+main {
+	flex-grow: 1;
+}
+
+footer {
+	bottom: 0;
+}
+
+/* SMALL - phones*/
+/* MEDIUM - tablets */
+/* LARGE - laptop */
+/* VERY LARGE - monitors */
+
+/* === Sizing cheat sheet ===
+iPhone, Android, Mobile - <481px
+iPads and Tablets - 481px - 768px
+laptops/small screens - 769px -1024px
+desktops or large screens - 1025px - 1200px
+very large monitors - 1201px
+*/
+
+/* 
+Exercise
+1. Add a media query CSS for:
+a. mobile
+b. tablets
+c. laptops
+d. XL screens
+
+Just use the code provided above 🥰
+*/
+
+/* Mobile */
+@media screen and (min-width: 480px) {
+    header {
+        padding: 100px;
+        background-color: yellow;
+    }
+    main {
+        font-size: 30px;
+        background-color: orange;
+    }
+    main p{
+        font-size: 30px;
+        background-color: burlywood;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 20px;
+        background-color: blue;
+    }
+
+    main p{
+        font-size: 90px;
+        background-color: red;
+    }
+}
+
+/* laptops & Small Screens */
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 20px;
+        background-color: pink;
+    }
+    main p {
+        padding: 100px;
+        background-color: orange;
+    }
+
+}
+
+/* XL screens */
+@media screen and (min-width: 1201px) {
+    nav {
+        padding: 20px;
+        background-color: mintcream;
+    }
+    footer {
+        padding: 20px;
+        background-color: purple;
+    }
+
+}

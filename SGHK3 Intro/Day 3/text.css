@@ -1,0 +1,42 @@
+/* font family and sizes */
+.font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+/* formating text */
+.format #bold {
+    font-weight: bold;
+}
+
+.format #italic {
+    font-style: italic;
+}
+
+.format #underlined {
+    text-decoration: underline;
+}
+
+/* Text Alignment */
+.alignment {
+	text-align: center;
+}
+
+/* Line Height and Text Spacing */
+.spacing {
+    line-height: 5;
+    letter-spacing: 5px;
+}
+
+/* Text Shadows */
+.shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* 0,0,0 is black, 0.5 is opaque */
+}
+
+/* Google Font */
+.google {
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}

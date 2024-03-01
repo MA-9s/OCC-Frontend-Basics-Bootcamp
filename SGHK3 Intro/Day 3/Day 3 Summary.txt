@@ -1,0 +1,93 @@
+HTML File: css-intro.html
+Purpose: Introduces CSS and demonstrates different ways of styling HTML elements.
+HTML Structure:
+Includes an h1 element with inline styling.
+Several p elements with classes and IDs.
+A p element with an ID for demonstrating a hover effect.
+Key Points:
+Demonstrates three ways of styling:
+External CSS (linked in the head)
+Internal CSS (defined in the head)
+Inline CSS (applied directly to elements)
+Explains the order of priority for styles: Inline > Internal > External.
+
+CSS File: css-intro.css
+Purpose: Provides styling for the css-intro.html file.
+Key CSS Rules:
+Element Selector (h1, #p4) for color and background.
+Class Selector (.par) for background color.
+ID Selectors (#p1, #p2, #p3) for text color.
+Universal Selector (*) for text color.
+Pseudo Class Selector (#hover:hover) for a hover effect.
+
+
+HTML File: text.html
+Purpose: Demonstrates text and typography styling using CSS.
+HTML Structure:
+Includes various p elements with different classes for styling.
+Key Points:
+Shows examples of font families, sizes, formatting, alignment, spacing, shadows, and Google Fonts.
+Each p element has a different class for specific styling effects.
+
+CSS File: text.css
+Purpose: Provides styling for the text.html file.
+Key CSS Rules:
+Font styles (font-family, font-size).
+Text formatting (bold, italic, underline).
+Text alignment.
+Line height and letter spacing.
+Text shadow.
+Google Font usage.
+
+
+HTML File: backgrounds.html
+Purpose: Demonstrates different background styling techniques.
+HTML Structure:
+Contains various p elements with different classes for background styling.
+Includes an image element (<img>) at the end.
+Key Points:
+Examples of different background colors (background-color).
+Background images (background-image).
+Opacity and transparency (rgba colors).
+Usage of an image element with a relative path.
+
+CSS File: backgrounds.css
+Purpose: Provides styling for the backgrounds.html file.
+Key CSS Rules:
+Background colors for different classes.
+Background images and positions.
+Opacity and transparency settings.
+Image sizing and borders.
+
+
+HTML File: algorithm.html
+Purpose: Introduces basic CSS concepts like class, ID, and inline styles.
+HTML Structure:
+Contains two paragraphs (<p> elements) with classes and IDs.
+Key Points:
+Demonstrates class and ID usage for styling.
+Includes inline styles for specific elements.
+
+CSS File: algorithm.css
+Purpose: Provides styling for the algorithm.html file.
+Key CSS Rules:
+Styling based on class (#second) and ID (#first).
+Specificity demonstration using classes, IDs, and !important.
+Universal selector usage for background color.
+
+
+HTML File: box-model.html
+Purpose: Demonstrates the CSS box model with different classes.
+HTML Structure:
+Three paragraphs (<p> elements) with different classes for the box model demonstration.
+Key Points:
+Each paragraph represents different aspects of the box model: borders, padding, and margins.
+
+CSS File: box-model.css
+Purpose: Provides styling for the box-model.html file.
+Key CSS Rules:
+Different border styles (border-bottom, border-left).
+Background color, border, and padding for .box2.
+Margin and border for .box3.
+Setting specific dimensions (width and height) for .box3.
+These summaries outline the purpose and key aspects of each HTML and CSS file, providing an overview of the topics covered in a frontend bootcamp.
